@@ -1,4 +1,4 @@
-package com.spring;
+package com.login.jee;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

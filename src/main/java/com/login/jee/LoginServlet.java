@@ -1,4 +1,4 @@
-package com.spring;
+package com.login.jee;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -54,7 +54,7 @@ import javax.servlet.http.HttpServletResponse;
             } else {
 
                 request.setAttribute("name", nameStr);
-                request.setAttribute("autError","Login or password is incorrect. Please try again.");
+                request.setAttribute("autError","Login or password is incorrect. Please try again");
                 request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request, response);
             }
 
