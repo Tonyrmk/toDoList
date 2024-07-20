@@ -1,0 +1,61 @@
+
+
+.custom-button {
+    background-color: #3535b6;
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+
+.custom-button:hover {
+    background-color: #2828c1;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+table  ,th , td {
+    border: 2px solid black;
+    border-color: black;
+    background:#0001;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding : 10px 20px;
+
+text-decoration:none;
+
+color:black;
+
+background:#0000;
+
+border-radius:5px;
+}
+
+
+
+
+
+

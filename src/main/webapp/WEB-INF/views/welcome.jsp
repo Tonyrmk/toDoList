@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>jsp file</title>
+<%@include file="common/header.jspf"%>
 
-<body>
+<%@include file="common/navigation.jspf"%>
 
-<h1>Welcome ${name}</h1>
+<h1>Welcome ${userName}</h1></br>
+<h2>Now you can manage your <a href="/list-todos">ToDos</a> list</h2>
 
-</body>
-</html>
+
+<%@include file="common/footer.jspf"%>
