@@ -1,7 +1,7 @@
-package com.login.controllers;
+package com.todoList.controllers;
 
-import com.login.entity.mok.ToDo;
-import com.login.services.ToDoService;
+import com.todoList.entity.mok.ToDo;
+import com.todoList.services.ToDoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -39,6 +39,10 @@ public class ToDoController {
 
     @RequestMapping(value = "/add-todo", method = RequestMethod.GET)
     public String showToDoForm(ModelMap model) {
+
+        /* code for test purpose.commented.
+        throw new RuntimeException("expection");*/
+
         model.put("todo", new ToDo());
         return "todo";
 

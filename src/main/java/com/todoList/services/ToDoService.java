@@ -1,6 +1,6 @@
-package com.login.services;
+package com.todoList.services;
 
-import com.login.entity.mok.ToDo;
+import com.todoList.entity.mok.ToDo;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

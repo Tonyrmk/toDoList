@@ -5,6 +5,7 @@
 <div class="container">
 <table class="table table-striped">
 <caption> This is ${userName}'s' todos list</caption>
+<caption> <spring:message code="todo.caption"/></caption>
 <tr>
 <th>Description</th>
 <th>Date</th>

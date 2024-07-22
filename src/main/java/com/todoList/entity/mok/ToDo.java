@@ -1,4 +1,4 @@
-package com.login.entity.mok;
+package com.todoList.entity.mok;
 
 import lombok.*;
 
