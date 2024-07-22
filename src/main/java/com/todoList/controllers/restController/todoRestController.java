@@ -1,7 +1,7 @@
 package com.todoList.controllers.restController;
 
-import com.todoList.entity.mok.ToDo;
-import com.todoList.services.ToDoService;
+import com.todoList.bean.ToDo;
+import com.todoList.services.ToDoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +11,7 @@ import java.util.List;
 public class todoRestController {
 
     @Autowired
-    ToDoService service;
+    ToDoServiceImpl service;
 
     @RequestMapping(value = "/todos/{name}")
     public List<ToDo> getAllTodos(@PathVariable String name){

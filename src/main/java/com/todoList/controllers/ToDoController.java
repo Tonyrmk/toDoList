@@ -1,7 +1,7 @@
 package com.todoList.controllers;
 
-import com.todoList.entity.mok.ToDo;
-import com.todoList.services.ToDoService;
+import com.todoList.bean.ToDo;
+import com.todoList.services.ToDoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -20,7 +20,7 @@ import java.util.Date;
 public class ToDoController {
 
     @Autowired
-    ToDoService service;
+    ToDoServiceImpl service;
 
     @InitBinder
     protected void initBinder(WebDataBinder binder){

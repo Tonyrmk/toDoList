@@ -1,4 +1,4 @@
-package com.todoList.entity.mok;
+package com.todoList.bean;
 
 import lombok.*;
 
